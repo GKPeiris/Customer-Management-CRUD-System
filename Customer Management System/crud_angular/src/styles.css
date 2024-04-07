@@ -1,0 +1,19 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/943/528/original/business-marketing-strategy-target-management-illustration-free-vector.jpg');
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (last parameter) to control the transparency */
+    z-index: -1; /* Place the overlay behind the content */
+}
